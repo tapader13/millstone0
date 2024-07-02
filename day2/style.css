@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-block: 1rem;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0rem 5rem;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-inline: 1rem;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(5) {
+    margin-right: 3rem;
+}
+
+#btn {
+    background-color: #4b8ef1;
+    padding-inline: 1.5rem;
+    padding-block: .7rem;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero {
+    background-image: url("/day2/assets/asset 8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.innerhero {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    padding-inline: 5rem;
+}
+
+.leftdiv {
+    width: 50%;
+    padding-inline: 3rem;
+}
+
+.leftdiv h1 {
+    font-size: xx-large;
+}
+
+.leftdiv p {
+    font-size: large;
+    padding-top: 1rem;
+    line-height: 26px;
+}
+
+.rightdevimg {
+    height: 500px;
+    width: 50%;
+    padding-inline: 3rem;
+}
+
+.rightdevimg img {
+    height: 100%;
+}
+
+.leftdivbtn {
+    margin-top: 1REM;
+}
+
+.leftdivbtn button {
+    background-color: #4b8ef1;
+    padding-block: .6rem;
+    padding-inline: 1rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px rgb(93, 93, 197);
+    color: white;
+    font-weight: 600;
+}
+
+.leftdivbtn button:last-child {
+    margin-left: 1rem;
+}
+
+.cta {
+
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    padding-inline: 3rem;
+}
+
+.cta::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 1170px;
+    background-image: url("/day2/assets/asset 9.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.cta::after {
+    content: "";
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    height: 300px;
+    width: 370px;
+    background-image: url("/day2/assets/asset 10.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.spantext {
+    color: #4b8ef1;
+}
+
+.cta .ctah {
+    font-size: 2rem;
+}
+
+.cta .ctap {
+    width: 50%;
+    margin: auto;
+    font-size: 1.3rem;
+    line-height: 28px;
+    color: grey;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: space-around;
+
+
+}
+
+.boxes div {
+    width: 23%;
+    text-align: left;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 10px;
+    background-color: rgb(241, 244, 247);
+    border-top-right-radius: 30px;
+}
+
+.boxes div h1 {
+    font-size: 1.3rem;
+}
+
+.boxes div p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: grey;
+
+
+}
+
+.boxes div button {
+    background-color: transparent;
+    padding-block: .6rem;
+    padding-inline: 1rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: #4b8ef1;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.boxes div img {
+    padding-bottom: 7px;
+}
