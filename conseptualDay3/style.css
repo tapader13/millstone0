@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    background-image: linear-gradient(45deg, rgba(152, 29, 29, 0.712), rgba(0, 0, 0, .569)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibg5f0fBrTxJSacQUfseRAN27xwQD9tId5Q&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    color: aliceblue;
+}
+
+div p {
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+}
