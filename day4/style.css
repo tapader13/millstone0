@@ -1,0 +1,95 @@
+td,
+th {
+    border: 1px solid green;
+    padding: 10px 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    background: linear-gradient(to right, green, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+nav ul .dropdown {
+    display: none;
+
+}
+
+nav li:hover>.dropdown {
+    display: block;
+    position: absolute;
+    background: rgb(240, 236, 236);
+    width: 150px;
+
+}
+
+button {
+    background: linear-gradient(to right, green, orange);
+    padding: 8px 20px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
+
+button>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.src {
+    position: absolute;
+}
+
+.src input {
+    padding: 6px 15px;
+}
+
+.src img {
+    position: relative;
+    height: 25px;
+    top: 8px;
+    right: 36px;
+}
+
+footer {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+fieldset {
+    width: 70%;
+}
+
+article {
+    margin: 60px 0;
+    background-color: aquamarine;
+}
