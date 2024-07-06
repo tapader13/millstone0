@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1,
+.box3 {
+    height: 70vh;
+    /* width: 100vw; */
+    background-color: black;
+}
+
+.box2 {
+    min-height: 70vh;
+    background-image: linear-gradient(#a526264d, #14d05d4d), url("./assets/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+
+}
