@@ -1,0 +1,96 @@
+.container {
+    min-height: 40vh;
+    min-width: 100vw;
+    background-color: cadetblue;
+    display: flex;
+    gap: 50px;
+
+    /* position: fixed; */
+    /* position: relative; */
+    border: 1px solid olive;
+    /* position: relative;
+    left: 10px; */
+}
+
+.cont {
+    position: sticky;
+    top: 10px;
+}
+
+.content {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+
+.content:hover {
+    background-color: orange;
+}
+
+input {
+    border: 1px solid chocolate;
+}
+
+input:focus {
+    color: brown;
+    border: 1px solid chocolate;
+}
+
+input::placeholder {
+    color: green;
+}
+
+.content:nth-child(2n+1) {
+    background: yellow;
+}
+
+a:visited {
+    color: gray;
+}
+
+::selection {
+    color: cyan;
+    background-color: black;
+}
+
+li::after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: magenta;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.content::before {
+    content: "";
+    display: inline-block;
+    left: -40px;
+    top: 30%;
+    position: relative;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid red;
+
+}
+
+/* .div1 {
+    position: absolute;
+    top: -50px;
+
+} */
+
+.div4 {
+    /* z-index: 1; */
+    position: absolute;
+    top: 10px;
+}
+
+.p {
+    margin-top: 400px;
+    text-align: justify;
+    line-height: 50px;
+}

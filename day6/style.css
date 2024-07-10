@@ -240,15 +240,21 @@
     width: 463px;
     height: 463px;
 
+
 }
 
 .offer2 img {
     border-radius: 195px;
-    border: 15px solid rgb(255, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
     background: white;
     padding: 8px;
 
 }
+
+/* .dashed {
+    border: 5px solid grey !important;
+
+} */
 
 .offer3 h1 {
     color: rgb(255, 0, 0);
