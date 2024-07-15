@@ -1,0 +1,75 @@
+:root {
+    --primary-color: tomato;
+    --ball-color: white;
+}
+
+.main div:first-child {
+    background-color: var(--primary-color);
+}
+
+.bounce {
+    height: 500px;
+    width: 900px;
+    background-color: var(--primary-color);
+    transition: transform 1s linear 0s;
+}
+
+.bounce:hover img {
+    transform: rotate(-60deg);
+    transform-origin: top right;
+    ;
+}
+
+.bounce:hover .ball {
+    transform: translate(300px, -50px);
+}
+
+
+.ball {
+    background-color: var(--ball-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 370px;
+    bottom: 10px;
+    transition: transform 1s linear 0s;
+}
+
+.balls {
+    background-color: var(--ball-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    animation: ball_laf 1s ease-in-out 0s infinite alternate;
+}
+
+.lafalafi {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    background-color: var(--primary-color);
+}
+
+@keyframes ball_laf {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 200px;
+        top: 200px;
+    }
+
+    50% {
+        left: 300px;
+        top: 400px;
+    }
+
+    100% {
+        left: 400px;
+        top: 0;
+    }
+}

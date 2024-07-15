@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="adv.css" />
+    <style>
+      .main {
+        background-color: blue;
+      }
+      .main div {
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+        margin: 10px;
+        position: relative;
+        animation: identifier 2s ease-in-out 1s infinite alternate;
+        /* transition: transform 0.5s linear 1s; */
+      }
+      .main div:hover {
+        transform: translateX(100px) rotate(45deg) scale(0.5);
+      }
+      @keyframes identifier {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div></div>
+      <div></div>
+      <div class=" "></div>
+    </div>
+    <div class="bounce">
+      <img src="bate-removebg-preview.png" alt="" />
+      <div class="ball"></div>
+    </div>
+    <div class="lafalafi">
+      <div class="balls"></div>
+    </div>
+  </body>
+</html>
