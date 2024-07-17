@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(240, 230, 110, .7);
+}
+
+.container h1 {
+    rotate: -45deg;
+    color: black;
+}
+
+.glass {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, .2);
+}
